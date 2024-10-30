@@ -7,7 +7,7 @@
 
 # 🚀 Quick Start Windows
 
-## Install Ollama
+## Windows
 ```bash
 download ollama from ollama.com
 in command line run:
@@ -15,14 +15,14 @@ ollama run llama3.2:latest
 ```
 # 🚀 Quick Start Linux
 
-## Install Ollama
+## Linux
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ollama run llama3.2:latest
 ```
 # 🚀 Quick Start Android
 
-## Install Ollama
+## Android
 ```bash
 install termux from app store.
 in termux run this command:
