@@ -64,6 +64,7 @@ ollama run llama3.2:latest
 # Initialize project
 npm init -y
 npm install chalk
+npm install node-fetch
 
 # Start adventure
 node index.js
