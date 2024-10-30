@@ -1,34 +1,48 @@
-# llamaRPG
-local llm ai RPG game
-local npc agents
+```ascii
+ ╔═══════════════════════════════════════╗
+ ║             🎮 LlamaRPG 🎮            ║
+ ║     Local LLM-Powered RPG Adventure   ║
+ ╚═══════════════════════════════════════╝
+```
 
-get ollama:
+# 🚀 Quick Start
 
+## Install Ollama
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
+ollama run llama2:latest
+```
 
-ollama run llama3.2:latest
+## 🔧 Configuration
+```javascript
+const response = await fetch('http://localhost:11434/api/generate', {
+    method: 'POST', 
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+        model: 'llama2:latest',
+        prompt: prompt,
+        stream: false,
+        temperature: 0.7,
+        system: "You are a logic engine that only responds with valid JSON objects."
+    })
+});
+```
 
-or switch model to what ever you want: 
-
- const response = await fetch('http://localhost:11434/api/generate', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    model: 'llama3.2:latest',
-                    prompt: prompt,
-                    stream: false,
-                    temperature: 0.7,
-                    system: "You are a logic engine that only responds with valid JSON objects. Never include explanations or additional text."
-                })
-            });
-
-run:
-
-node index.js
-
-with errors?
-
+## 🏃‍♂️ Run the Game
+```bash
+# Initialize project
 npm init -y
 npm install chalk
-node index.js
 
+# Start adventure
+node index.js
+```
+
+```ascii
+  ⚔️  Happy Gaming! ⚔️
+     \             /
+      \  |  |  |  /
+       \_________/
+         |     |
+         |_____|
+```
