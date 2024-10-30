@@ -27,6 +27,7 @@ ollama run llama3.2:latest
 install termux from app store.
 in termux run this command:
 
+apt install proot-distro
 proot-distro install ubuntu
 proot-distro login ubuntu
 
