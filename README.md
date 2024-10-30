@@ -5,6 +5,10 @@
  ╚═══════════════════════════════════════╝
 ```
 
+```ascii
+https://notebooklm.google.com/notebook/deffedb1-a968-438c-b613-e7f9ac845cd4/audio
+```
+
 # 🚀 Quick Start Windows
 
 ## Windows
