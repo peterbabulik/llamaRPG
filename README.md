@@ -5,11 +5,38 @@
  ╚═══════════════════════════════════════╝
 ```
 
-# 🚀 Quick Start
+# 🚀 Quick Start Windows
+
+## Install Ollama
+```bash
+download ollama from ollama.com
+in command line run:
+ollama run llama3.2:latest
+```
+# 🚀 Quick Start Linux
 
 ## Install Ollama
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
+ollama run llama3.2:latest
+```
+# 🚀 Quick Start Android
+
+## Install Ollama
+```bash
+install termux from app store.
+in termux run this command:
+
+proot-distro install ubuntu
+proot-distro login ubuntu
+
+curl -fsSL https://ollama.com/install.sh | sh
+ollama serve
+
+now open new terminal (swipe from left and click on + icon)
+in new terminal run:
+
+proot-distro login ubuntu
 ollama run llama3.2:latest
 ```
 
