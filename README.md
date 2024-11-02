@@ -8,7 +8,7 @@
 [listen to notebookLM about project](https://notebooklm.google.com/notebook/deffedb1-a968-438c-b613-e7f9ac845cd4/audio)
 
 
-# 🚀 Quick Start Windows
+# 🚀 Quick Start 
 
 ## Windows
 ```bash
@@ -16,14 +16,14 @@ download ollama from ollama.com
 in command line run:
 ollama run llama3.2:latest
 ```
-# 🚀 Quick Start Linux
+
 
 ## Linux
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ollama run llama3.2:latest
 ```
-# 🚀 Quick Start Android
+
 
 ## Android
 ```bash
